@@ -1,10 +1,30 @@
 .header {
 	background:black;
-	color: :white;
 	text-align:center;
-	padding:100px 0 100px 0;
+	padding:100px 0 10px 0;
 }
 h1 {
 	color:white;
 	font-family:courier;
+}
+.options {
+	text-align:center;
+	padding:0px 0px 50px 0px;
+	display:inline-block;
+	margin: 0 50px;
+}
+.section {
+	background:black;
+	color:white;
+	font-family:courier;
+	width:100%;
+	margin: 0 auto;
+	position: relative;
+  	text-align:center;
+}
+
+a {
+	color:white;
+	font-family:courier;
+	font-size:150%;
 }
