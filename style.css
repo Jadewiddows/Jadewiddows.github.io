@@ -28,3 +28,11 @@ a {
 	font-family:courier;
 	font-size:150%;
 }
+
+.signup {
+	background:black;
+	color:white;
+	font-family:arial;
+	text-align:center;
+	font-size:65%;
+}
