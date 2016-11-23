@@ -1,3 +1,5 @@
+a {color:black}
+
 .header {
 	background:black;
 	text-align:center;
@@ -9,7 +11,7 @@ h1 {
 }
 .options {
 	text-align:center;
-	padding:0px 0px 50px 0px;
+	padding:0px 0px 100px 0px;
 	display:inline-block;
 	margin: 0 50px;
 }
@@ -21,12 +23,7 @@ h1 {
 	margin: 0 auto;
 	position: relative;
   	text-align:center;
-}
-
-a {
-	color:white;
-	font-family:courier;
-	font-size:150%;
+  	padding:0px 0px 0px 0px;
 }
 
 .signup {
@@ -36,3 +33,48 @@ a {
 	text-align:center;
 	font-size:65%;
 }
+.email {
+	background:black;
+	color:black;
+	font-family:arial;
+	text-align:center;
+	font-size:80%;
+	padding-bottom: 300px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    color:white;
+	font-family:courier;
+	font-size:150%;
+	text-align:center;
+	margin-left:auto;
+    margin-right:auto;
+    auto:width;
+}
+
+.dropdown-content {
+    display: none;
+    color:black;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    font-size:80%;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);
+    padding: 0px 0 0 0px;
+    text-align:center;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+    color:black;
+       }
+
+a {
+	colour:black;
+}
+
+a:hover{
+        color: black;;
+       }
+
